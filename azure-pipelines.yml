@@ -12,7 +12,7 @@ pool:
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
-    deploymentScope: 'Management Group'
+    deploymentScope: 'Subscription'
     azureResourceManagerConnection: 'cx-granite'
     location: 'Southeast Asia'
     templateLocation: 'URL of the file'
